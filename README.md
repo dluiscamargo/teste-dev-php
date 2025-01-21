@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-####Linux Ubuntu 20.04.6 LTS## 
-- - Ambiente de desenvolvimento:
-=======
 ##Linux Ubuntu 20.04.6 LTS## 
 - Ambiente de desenvolvimento:
->>>>>>> 0078144fd30daba2db59a4044d0a8a491c194988
 	- PHP v8.3.16
 	- Composer
 	- nvm
@@ -12,14 +7,12 @@
 	- velet-linux
 	- takeout: banco de dados, redis, mailhog,meilisearch
 	- MySQL
-<<<<<<< HEAD
 	- vim
-=======
  	- dbeaver
 	- vim
  	- ohmyzsh 
->>>>>>> 0078144fd30daba2db59a4044d0a8a491c194988
 	- Docker
+ 	- Laravel v11.38.2 
 	
 - Install php: 'sudo apt-install php -y'
 
