@@ -24,7 +24,8 @@
   
 - Install docker https://docs.docker.com/engine/install/ubuntu/
 - CONTAINERS rodando no projeto: MySQL, redis, mailhog, meilisearch
-~daniel@daniel-Lenovo-ideapad-330-15IKB:~/code/teste-dev-php/testDaniel$ sudo docker ps -a
+~ teste-dev-php on  main [⇡?] …
+➜ docker ps -a
  
 CONTAINER ID   IMAGE                          COMMAND                  CREATED        STATUS                    PORTS                                                                                  NAMES
 ff9db3d77629   getmeili/meilisearch:v1.12.5   "tini -- /bin/sh -c …"   17 hours ago   Up 17 hours               0.0.0.0:7700->7700/tcp, :::7700->7700/tcp                                              TO--meilisearch--v1.12.5--7700
