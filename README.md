@@ -7,7 +7,9 @@
 	- velet-linux
 	- takeout: banco de dados, redis, mailhog,meilisearch
 	- MySQL
+ 	- dbeaver
 	- vim
+ 	- ohmyzsh 
 	- Docker
 	
 - Install php: 'sudo apt-install php -y'
