@@ -23,7 +23,7 @@
   "Valet Linux é um ambiente de desenvolvimento Laravel para Linux minimalistas. Sem Vagrant, sem arquivo /etc/hosts. Você pode até compartilhar seus sites publicamente usando túneis locais. O Valet Linux configura seu sistema para sempre executar o Nginx em segundo plano quando sua máquina for iniciada. Em seguida, usando DnsMasq, o Valet faz proxy de todas as solicitações no domínio *.test para apontar para sites instalados em sua máquina local.Em outras palavras, um ambiente de desenvolvimento Laravel extremamente rápido que usa cerca de 7 MB de RAM. Valet Linux não é um substituto completo para Vagrant ou Homestead, mas oferece uma ótima alternativa se você deseja princípios flexíveis, prefere velocidade extrema ou está trabalhando em uma máquina com uma quantidade limitada de RAM."	
   
 - Install docker https://docs.docker.com/engine/install/ubuntu/
-- CONTAINERS rodando no projeto:
+- CONTAINERS rodando no projeto: MySQL, redis, mailhog, meilisearch
 ~daniel@daniel-Lenovo-ideapad-330-15IKB:~/code/teste-dev-php/testDaniel$ sudo docker ps -a
  
 CONTAINER ID   IMAGE                          COMMAND                  CREATED        STATUS                    PORTS                                                                                  NAMES
