@@ -1,11 +1,14 @@
-####Linux Ubuntu 20.04.6 LTS## 
+##Linux Ubuntu 20.04.6 LTS## 
 - Ambiente de desenvolvimento:
-	- PHP v8.3.16, , ,vim, NPM, NODE, MySQL, Docker,
-	- Composer,
-	- nvm,
-	- valet-linux,
-	- Docker,
+	- PHP v8.3.16
+	- Composer
+	- nvm
+	- NODE
+	- velet-linux
 	- takeout: banco de dados, redis, mailhog,meilisearch
+	- MySQL
+	- vim
+	- Docker
 	
 - Install php: 'sudo apt-install php -y'
 
