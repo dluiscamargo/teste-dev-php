@@ -23,15 +23,15 @@
   "Valet Linux é um ambiente de desenvolvimento Laravel para Linux minimalistas. Sem Vagrant, sem arquivo /etc/hosts. Você pode até compartilhar seus sites publicamente usando túneis locais. O Valet Linux configura seu sistema para sempre executar o Nginx em segundo plano quando sua máquina for iniciada. Em seguida, usando DnsMasq, o Valet faz proxy de todas as solicitações no domínio *.test para apontar para sites instalados em sua máquina local.Em outras palavras, um ambiente de desenvolvimento Laravel extremamente rápido que usa cerca de 7 MB de RAM. Valet Linux não é um substituto completo para Vagrant ou Homestead, mas oferece uma ótima alternativa se você deseja princípios flexíveis, prefere velocidade extrema ou está trabalhando em uma máquina com uma quantidade limitada de RAM."	
   
 - Install docker https://docs.docker.com/engine/install/ubuntu/
-  
- "daniel@daniel-Lenovo-ideapad-330-15IKB:~/code/teste-dev-php/testDaniel$ sudo docker ps -a
+- CONTAINERS rodando no projeto:
+~daniel@daniel-Lenovo-ideapad-330-15IKB:~/code/teste-dev-php/testDaniel$ sudo docker ps -a
+ 
 CONTAINER ID   IMAGE                          COMMAND                  CREATED        STATUS                    PORTS                                                                                  NAMES
 ff9db3d77629   getmeili/meilisearch:v1.12.5   "tini -- /bin/sh -c …"   17 hours ago   Up 17 hours               0.0.0.0:7700->7700/tcp, :::7700->7700/tcp                                              TO--meilisearch--v1.12.5--7700
 893dbfc130ea   mailhog/mailhog:v1.0.1         "MailHog"                17 hours ago   Up 17 hours               0.0.0.0:1025->1025/tcp, :::1025->1025/tcp, 0.0.0.0:8025->8025/tcp, :::8025->8025/tcp   TO--mailhog--v1.0.1--1025--8025
 0b5b112ca21b   redis:7.4.2                    "docker-entrypoint.s…"   17 hours ago   Up 17 hours               0.0.0.0:6379->6379/tcp, :::6379->6379/tcp                                              TO--redis--7.4.2--6379
 74a294fe800a   hello-world                    "/hello"                 18 hours ago   Exited (0) 18 hours ago                                                                                          reverent_kare
-c23c8914d62a   mysql:9.1.0                    "docker-entrypoint.s…"   19 hours ago   Up 19 hours               0.0.0.0:3306->3306/tcp, :::3306->3306/tcp, 33060/tcp                                   TO--mysql--9.1.0--3306
-23c056849e16   hello-world                    "/hello"                 19 hours ago   Exited (0) 19 hours ago                                                                                          friendly_mendeleev
+c23c8914d62a   mysql:9.1.0                    "docker-entrypoint.s…"   19 hours ago   Up 19 hours               0.0.0.0:3306->3306/tcp, :::3306->3306/tcp, 33060/tcp                                  TO--mysql--9.1.0--3306
 "
 
 - Install o Takeout https://github.com/tighten/takeout
